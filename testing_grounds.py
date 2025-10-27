@@ -3,6 +3,8 @@ import numpy as np
 import os
 import matplotlib.pyplot as plt
 from skimage.feature import local_binary_pattern
+from sklearn.model_selection import train_test_split
+from collections import Counter
 
 def segment_bird(image_path):
     #1
